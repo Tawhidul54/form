@@ -76,3 +76,16 @@
     min-width: 300px;
   }
 }
+
+@media screen and (max-width:320px){
+
+    .form{
+        padding-left: 25px;
+        padding-right: 15px;
+    }
+
+
+    .form .form-input{
+        min-width: 200px;
+    }
+}
