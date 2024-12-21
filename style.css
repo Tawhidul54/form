@@ -7,11 +7,11 @@
 
 .container {
   height: 100vh;
-  padding: 25px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffe2e2;
+  width: 100vw;
 }
 
 .form {
@@ -66,10 +66,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:425px) {
+  .form{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
 
-@media screen and (min-width:320px ){
-
-  .container  {
-margin-left: 70px;
+  .form .form-input input{
+    min-width: 300px;
   }
 }
