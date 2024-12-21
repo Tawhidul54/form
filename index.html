@@ -10,20 +10,25 @@
     <div class="container">
       <form action="https://maxor.vercel.app/register" method="post" aria-required="true">
         <div class="form">
-          <h1>Login</h1>
-          <p>
-            <label for="name"><b>Name</b></label>
-            <input type="text" name="name" placeholder="your name" required/>
-          </p>
-          <p>
-            <label for="email"><b>Email</b></label>
-            <input type="email" name="email" id="" placeholder="your email" required/>
-          </p>
-          <p>
-            <label for="passward"><b>passward</b></label>
-            <input type="password" name="passward"  placeholder="passward" required/>
-          </p>
-          <button type="submit">submit</button>
+          <h1 class="form-title">Login</h1>
+
+          <div class="form-input">
+            <label for="name" class="form-form-input_form-title"><b>Name</b></label>
+            <input type="text" name="name" required/>
+          </div>
+
+          <div class="form-input">
+            <label class="form-form-input_form-title" for="email"><b>Email</b></label>
+            <input type="email" name="email" required/>
+          </div>
+
+          <div class="form-input">
+            <label for="passward" class="form-form-input_form-title"><b>passward</b></label>
+            <input type="password" name="passward" required/>
+          </div>
+
+          <button class="form-button" type="submit">submit</button>
+
         </div>
       </form>
     </div>
