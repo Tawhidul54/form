@@ -80,19 +80,18 @@
 @media screen and (max-width:320px){
 
     .form{
-        padding-left: 25px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
     }
 
 
-    .form .form-input{
-        min-width: 200px;
-        
-    }
-
+  .form-form-input_form-title{
+    font-size: 8px;
+  }
 
     .form-title{
-        font-size: 15px;
+        font-size: 12px;
     }
 
 
