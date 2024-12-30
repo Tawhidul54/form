@@ -10,12 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1d1d;
+  background-color: #242422;
   width: 100vw;
 }
 
 .form {
-  background-color:#759a80;
+  background-color:#fefffc;
   padding: 35px 55px;
   color: #7e427f;
   padding-bottom: 65px;
@@ -61,7 +61,7 @@
 .form .form-button {
   border: none;
   padding: 15px 25px;
-  background-color: #5b9fae;
+  background-color: #062f38;
   text-transform: capitalize;
   font-size: 10px;
   letter-spacing: 2px;
