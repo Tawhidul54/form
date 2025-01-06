@@ -146,6 +146,7 @@ margin-bottom: 10px;
     align-items: center;
     gap: 7px;
     padding-left: 18px;
+    color: rgb(172, 172, 164);
 }
 input{
     width: 200px;
