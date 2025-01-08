@@ -36,8 +36,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 25px;
-    padding-left: 12px;
+   padding: 12px;
     font-size: 13px;
     font-family: 'Roboto',sans-serif;
     font-weight: 100px;
@@ -48,9 +47,9 @@
 
 .Favorites-item:hover{
      background-color: whitesmoke;
-    border-radius: 3px;
-    width: 220px;
-    
+    border-radius: 7px;
+    width: 280px;
+
 
 
 }
@@ -63,19 +62,19 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 25px;
-    padding-left: 12px;
+    padding: 12px;
     font-size: 13px;
     font-family:'Roboto',sans-serif;
-    font-weight: 400px;
+    font-weight: 100px;
     cursor: pointer;
 }
 
 
 .Menu-item:hover{
     background-color: whitesmoke;
-    border-radius: 4px;
-    width: 220px;
+    border-radius: 7px;
+    width: 280px;
+    
     
     
 }
@@ -96,7 +95,7 @@ margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 233px;
+    margin-top: 200px;
     padding-left: 15px;
     cursor: pointer;
 
@@ -557,8 +556,7 @@ img{
 }
 
 .recent-menu{
-    margin-left: 30px;
-    margin-top: 20px;
+   
 }
 .recent-menu-text{
     margin-bottom: 20px;
@@ -573,16 +571,14 @@ img{
 .recent-box{
     display: flex;
     align-items: center;
-    gap: 18px;
-    padding-bottom: 10px; 
+    gap: 4px;
     cursor: pointer; 
+    padding: 5px;
+}
+.recent-box:hover{
+    background-color: whitesmoke;
 }
 
-.recent-text1:hover{
-    width: 220px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
 
 .recent-text{
     padding: 2px;
@@ -590,25 +586,28 @@ img{
 }
 
 .team-menu{
-    margin-left: 30px;
-    margin-top: 50px;
+   
+    
+}
+
+.team-box{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0px;
 }
 
 .team-menu-text{
     margin-bottom: 20px;
 }
-.meat-img{
+.team-img{
     width: 45px;
     height: 45px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.team-text1:hover{
-    width: 200px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
+
 
 .team-text{
 padding: 1px;
