@@ -10,6 +10,7 @@
     height: 100vh;
     background-color: white;
     display: flex;
+    
 }
 
 
@@ -95,8 +96,8 @@ margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 200px;
-    padding-left: 15px;
+    margin-top: 195px;
+    padding-left: 10px;
     cursor: pointer;
 
 }
@@ -106,14 +107,14 @@ margin-bottom: 10px;
 
 
 .dashboard-container{
-    width: 132vh;
+    width: 66vw;
     height: 100vh;
     background-color: white;
     
 }
 
 .it{
-    display: flex;
+    
 }
 
 
@@ -176,7 +177,7 @@ input{
 }
 
 .revenue-amount{
-     background-image: linear-gradient(to right ,rgb(108, 9, 221), rgb(224, 83, 17));
+     background-image: linear-gradient(to right,rgb(163, 49, 197), rgb(250, 194, 10));
     background-clip: text;
     color: transparent;
 }
@@ -453,7 +454,7 @@ justify-content: space-between;
 
 }
 
-img{
+.img1{
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -547,62 +548,88 @@ img{
 
 
 .all-menu{
-    width: 345px;
+    width: 320px;
     height: 100vh;
     background-color: white;
     border-left: 1px solid rgb(216, 213, 213);
     font-family: 'Roboto',sans-serif;
-    overflow-y: hidden;
+    
 }
 
+
 .recent-menu{
-   
+  
 }
-.recent-menu-text{
-    margin-bottom: 20px;
-}
-.recent-img{
-    width: 45px;
-    height: 50px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .recent-box{
     display: flex;
     align-items: center;
-    gap: 4px;
+    padding: 12px;
+    gap: 10px;
     cursor: pointer; 
-    padding: 5px;
+
 }
 .recent-box:hover{
-    background-color: whitesmoke;
+    background-color: whitesmoke;  
+    border-radius: 8px;
 }
+.recent-text{
+    font-size: 15px;
+}
+
+.recent-text2{
+    font-size: 13px;
+}
+.recent-menu-text{
+    padding-top: 15px;
+    padding-left: 12px;
+}
+.recent-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 
 .recent-text{
-    padding: 2px;
+    padding: 1px;
     
 }
 
 .team-menu{
-   
-    
-}
-
-.team-box{
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 0px;
+   padding-top: 50px;   
 }
 
 .team-menu-text{
-    margin-bottom: 20px;
+    padding-left: 12px;
 }
+.team-box{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 12px;
+}
+
+.team-text{
+    font-size: 15px;
+}
+.team-text2{
+    font-size: 13px;
+}
+.team-box:hover{
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+
+
 .team-img{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     cursor: pointer;
 }
