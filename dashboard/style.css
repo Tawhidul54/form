@@ -43,7 +43,9 @@
   font-weight: 100px;
   cursor: pointer;
 }
-
+.svg-color{
+  color: rgb(0, 0, 0);
+}
 .Favorites-item:hover {
   background-color: whitesmoke;
   border-radius: 7px;
